@@ -17,6 +17,8 @@ public class Categoria {
     @OneToMany(mappedBy = "categoria")
     private List<Atividade> atividades = new ArrayList<>();
 
+
+
     public Categoria (){
 
     }
